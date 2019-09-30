@@ -1,4 +1,4 @@
-import math 
+import math #math library has pre-written math functions
 import unittest
 
 def circleArea(radius): 
@@ -16,7 +16,7 @@ def triArea(base,height):
 	
 class MyTest(unittest.TestCase):
     def testCircleArea(self):
-    
+        self.assertEqual(circleArea(5), 25*math.pi)
     def testRectArea(self):
     
     def testTrapArea(self):
